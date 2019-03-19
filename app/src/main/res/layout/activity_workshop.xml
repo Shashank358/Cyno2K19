@@ -1,0 +1,514 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey"
+    tools:context=".WorkshopActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/workshop_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/editbox_background_normal">
+
+    </android.support.v7.widget.Toolbar>
+
+    <ScrollView
+        android:id="@+id/work_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/workshop_toolbar">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:padding="16dp"
+                app:cardElevation="5dp"
+                app:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingLeft="26dp"
+                        android:paddingTop="8dp"
+                        android:paddingRight="26dp"
+                        android:text="Web Hunt"
+                        android:textColor="#000000"
+                        android:textSize="25dp"
+                        android:textStyle="bold|italic" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="8dp"
+                        android:src="@drawable/line" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:lineSpacingExtra="4dp"
+                        android:paddingLeft="26dp"
+                        android:paddingTop="8dp"
+                        android:paddingRight="26dp"
+                        android:paddingBottom="26dp"
+                        android:text="Web Development and Web Hosting"
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:padding="16dp"
+                app:cardElevation="5dp"
+                app:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingLeft="26dp"
+                        android:paddingTop="8dp"
+                        android:paddingRight="26dp"
+                        android:text="Estate War"
+                        android:textColor="@color/black"
+                        android:textSize="25sp"
+                        android:textStyle="bold|italic" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="8dp"
+                        android:src="@drawable/line" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:lineSpacingExtra="4dp"
+                        android:paddingLeft="26dp"
+                        android:paddingTop="8dp"
+                        android:paddingRight="26dp"
+                        android:paddingBottom="26dp"
+                        android:text="\tThere will be two workshops one for investor and second for developer. Workshop timing will be 1 hour only. In workshop we will give detailed info about event as well as clear all doubts of participants which is main purpose of workshop. "
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:padding="16dp"
+                app:cardElevation="5dp"
+                app:cardUseCompatPadding="true">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingLeft="26dp"
+                        android:paddingTop="8dp"
+                        android:paddingRight="26dp"
+                        android:text="Techno-Gamma"
+                        android:textColor="#000000"
+                        android:textSize="25dp"
+                        android:textStyle="bold|italic" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="8dp"
+                        android:src="@drawable/line" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:autoLink="all"
+                        android:clickable="true"
+                        android:lineSpacingExtra="4dp"
+                        android:paddingLeft="26dp"
+                        android:paddingTop="8dp"
+                        android:paddingRight="26dp"
+                        android:paddingBottom="26dp"
+                        android:text="\tA small workshop will be arranged for the participants about Game Development. The participants will get the knowledge about how to develop the game using software tool. \nPoster link: \nshttps://drive.google.com/file/d/1-2JvjF2vsRQ2D7zdg-zr8kqk2CA6-dAA/view?usp=drivesdk \nVideo link : \nhttps://drive.google.com/file/d/1KHGZqQbJxtOLMxgGAFXKt0Oq5UimTiOk/view?usp=drivesdk"
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:padding="16dp"
+                app:cardElevation="5dp"
+                app:cardUseCompatPadding="true">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingLeft="26dp"
+                        android:paddingTop="8dp"
+                        android:paddingRight="26dp"
+                        android:text="Radiance"
+                        android:textColor="#000000"
+                        android:textSize="25dp"
+                        android:textStyle="bold|italic" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="8dp"
+                        android:src="@drawable/line" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:lineSpacingExtra="4dp"
+                        android:paddingLeft="26dp"
+                        android:paddingTop="8dp"
+                        android:paddingRight="26dp"
+                        android:paddingBottom="26dp"
+                        android:text="\t A workshop will be held where we will be teaching how to design a working robo in less than 100 Rs."
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:padding="16dp"
+                app:cardElevation="5dp"
+                app:cardUseCompatPadding="true">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingLeft="26dp"
+                        android:paddingTop="8dp"
+                        android:paddingRight="26dp"
+                        android:text="Yantram"
+                        android:textColor="#000000"
+                        android:textSize="25dp"
+                        android:textStyle="bold|italic" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="8dp"
+                        android:src="@drawable/line" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:lineSpacingExtra="4dp"
+                        android:paddingLeft="26dp"
+                        android:paddingTop="8dp"
+                        android:paddingRight="26dp"
+                        android:paddingBottom="26dp"
+                        android:text="  The Workshop will cover the Arduino programming, which will be required for the all 3 rounds of the competition and the basic hardware knowledge. Topics will be covered from beginning to the master level.   "
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:padding="16dp"
+                app:cardElevation="5dp"
+                app:cardUseCompatPadding="true">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingLeft="26dp"
+                        android:paddingTop="8dp"
+                        android:paddingRight="26dp"
+                        android:text="NovaTrix"
+                        android:textColor="#000000"
+                        android:textSize="25dp"
+                        android:textStyle="bold|italic" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="8dp"
+                        android:src="@drawable/line" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:lineSpacingExtra="4dp"
+                        android:paddingLeft="26dp"
+                        android:paddingTop="8dp"
+                        android:paddingRight="26dp"
+                        android:paddingBottom="26dp"
+                        android:text="\tBefore round 1 we have guest lecture for our participants about society and technological touch to social problems.  "
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:padding="16dp"
+                app:cardElevation="5dp"
+                app:cardUseCompatPadding="true">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingLeft="26dp"
+                        android:paddingTop="8dp"
+                        android:paddingRight="26dp"
+                        android:text="ElectroPlaza"
+                        android:textColor="#000000"
+                        android:textSize="25dp"
+                        android:textStyle="bold|italic" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="8dp"
+                        android:src="@drawable/line" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:lineSpacingExtra="4dp"
+                        android:paddingLeft="26dp"
+                        android:paddingTop="8dp"
+                        android:paddingRight="26dp"
+                        android:paddingBottom="26dp"
+                        android:text="\tWe propose to conduct workshop regarding the 3rd round Technocrack. It will conducted 2-3 days before the event .It will cover all the basic knowledge of electrical and electronic component. "
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:padding="16dp"
+                app:cardElevation="5dp"
+                app:cardUseCompatPadding="true">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingLeft="26dp"
+                        android:paddingTop="8dp"
+                        android:paddingRight="26dp"
+                        android:text="MRD"
+                        android:textColor="#000000"
+                        android:textSize="25dp"
+                        android:textStyle="bold|italic" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="8dp"
+                        android:src="@drawable/line" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:lineSpacingExtra="4dp"
+                        android:paddingLeft="26dp"
+                        android:paddingTop="8dp"
+                        android:paddingRight="26dp"
+                        android:paddingBottom="26dp"
+                        android:text='Guest lecture will be conducted on the topic. \n"* Employ ability * " \n In this lecture the guest will be talking about how to make your self more employable and where we all are making mistakes while applying for a job or while giving a job interview.'
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:padding="16dp"
+                app:cardElevation="5dp"
+                app:cardUseCompatPadding="true">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingLeft="26dp"
+                        android:paddingTop="8dp"
+                        android:paddingRight="26dp"
+                        android:text="Water Rocket"
+                        android:textColor="#000000"
+                        android:textSize="25dp"
+                        android:textStyle="bold|italic" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="8dp"
+                        android:src="@drawable/line" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:lineSpacingExtra="4dp"
+                        android:paddingLeft="26dp"
+                        android:paddingTop="8dp"
+                        android:paddingRight="26dp"
+                        android:paddingBottom="26dp"
+                        android:text='We Will going to conduct Workshop and In this workshop we will tell How To Make WaterRocket'
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:padding="16dp"
+                app:cardElevation="5dp"
+                app:cardUseCompatPadding="true">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingLeft="26dp"
+                        android:paddingTop="8dp"
+                        android:paddingRight="26dp"
+                        android:text="Battle Drift"
+                        android:textColor="#000000"
+                        android:textSize="25dp"
+                        android:textStyle="bold|italic" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="8dp"
+                        android:src="@drawable/line" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:lineSpacingExtra="4dp"
+                        android:paddingLeft="26dp"
+                        android:paddingTop="8dp"
+                        android:paddingRight="26dp"
+                        android:paddingBottom="26dp"
+                        android:text=" A half hour workshop is taken for participants to teach bot construction, operation and to clear their various doubts with respect to event.   "
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

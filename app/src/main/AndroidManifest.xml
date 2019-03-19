@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.cynasure.cyno2k19">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/cyno"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/cyno"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".UniversityActivity"></activity>
+        <activity android:name=".DevelopersActivity" />
+        <activity android:name=".CynoTeamActivity" />
+        <activity android:name=".AllEvents.LanGamingEvent" />
+        <activity android:name=".AllEvents.NovaTrixEvent" />
+        <activity android:name=".AllEvents.MotorballEvent" />
+        <activity android:name=".AllEvents.YantramEvent" />
+        <activity android:name=".AllEvents.BattleDriftEvent" />
+        <activity android:name=".AllEvents.EstateWarEvent" />
+        <activity android:name=".AllEvents.ElementaEvent" />
+        <activity android:name=".AllEvents.WaterRocketEvent" />
+        <activity android:name=".AllEvents.NFSEvent" />
+        <activity android:name=".AllEvents.TechnoGammaEvent" />
+        <activity android:name=".AllEvents.MindItEvent" />
+        <activity android:name=".AllEvents.WebHuntEvent" />
+        <activity android:name=".AllBranches.CentralEvents" />
+        <activity android:name=".AllBranches.PetroEvents" />
+        <activity android:name=".AllBranches.TronicsEvents" />
+        <activity android:name=".AllBranches.ElectricalEvents" />
+        <activity android:name=".AllBranches.CivilEvents" />
+        <activity android:name=".AllBranches.ChemicalEvents" />
+        <activity android:name=".AllBranches.MechEvents" />
+        <activity android:name=".AllBranches.ItEvents" />
+        <activity android:name=".AllBranches.ComputerEvents" />
+        <activity android:name=".AllEvents.ElectroPlazaEvent" />
+        <activity android:name=".AllEvents.MRDEvent" />
+        <activity android:name=".AllEvents.IdeatorsEvent" />
+        <activity android:name=".AllEvents.StructuraEvent" />
+        <activity android:name=".AllEvents.CynoSparkEvent" />
+        <activity android:name=".AllEvents.LogiqueEvent" />
+        <activity android:name=".WebsiteActivity" />
+        <activity android:name=".WorkshopActivity" />
+        <activity android:name=".EventsActivity" />
+        <activity android:name=".SponsActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
